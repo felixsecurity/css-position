@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Calibri, sans-serif;
+    color: white;
+}
+
+.specialbar {
+    background-color: rgb(68, 68, 68);
+    padding: 4px;
+    text-align: center;
+}
+
+.menubar {
+    background-color: rgb(24, 37, 73);
+    padding: 8px;
+    font-size: 20px;
+    width: 100%;
+    display: flex;    
+    position: sticky;
+    top: 0;
+}
+
+.menuitem {
+    margin: 0 15px;
+    padding: 8px;
+    position: relative;
+}
+
+
+.content {
+    background: linear-gradient( rgb(58, 82, 126), rgb(112, 145, 206));
+    height: 200vh;
+}
+
+.chatbot {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: rgb(74, 81, 82);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.chatbot:hover {
+    background-color: rgb(101, 108, 109);
+}
+
+
+.submenu {
+    background-color: rgb(24, 37, 73);
+    padding-right: 25px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    color: white;
+    display: none;
+}
+
+.menuitem:hover {
+    color:rgb(169, 179, 180);
+}
+
+.menuitem:hover .submenu {
+    display: block;
+}
+
+
+.item {
+    padding: 8px;
+    margin: 4px 0;
+}
